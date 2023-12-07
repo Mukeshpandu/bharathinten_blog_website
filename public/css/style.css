@@ -1,0 +1,147 @@
+
+/* Common styles for all EJS files */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn_success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn_info {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn_danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Styles specific to edit.ejs */
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+.form_container {
+    flex: 1;
+    padding: 0 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles specific to show.ejs */
+
+.single_post {
+    margin-top: 20px;
+}
+
+h1,
+p,
+b {
+    margin-bottom: 15px;
+}
+
+.date {
+    margin-top: 15px;
+    color: #555;
+}
+
+/* Styles specific to index.ejs */
+
+.blog {
+    margin-top: 20px;
+}
+
+.blog_post {
+    margin-bottom: 30px;
+}
+
+h5 {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles specific to new.ejs */
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+.form_container {
+    flex: 1;
+    padding: 0 20px;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+

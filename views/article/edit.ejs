@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="heading">
+        <a class="btn btn_success" href="/">Home</a>
+    </div>
+    <div class="form">
+        <div class="side_img">
+            
+        </div>
+        <div class="form_container">
+            <form action="/article/edit/<%= article.id %>" method="post">
+                <input type="text" name="title" placeholder="Title ......"
+                value=<%= article.title %> >
+                <textarea name="des"  cols="30" rows="10" placeholder="Your post..."><%= article.des %></textarea>
+                <textarea name="info" cols="30" rows="10" placeholder="More info..."><%= article.info %></textarea>
+                <button class="btn btn-info" type="submit">Update</button>
+                
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
